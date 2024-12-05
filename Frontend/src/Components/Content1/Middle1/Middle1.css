@@ -22,6 +22,7 @@
     object-fit: cover;
 }
 
+
 .inventory, .setting, .order {
     border: 2px solid rgba(237, 233, 233, 0.961);
     border-radius: 20px;
@@ -33,6 +34,21 @@
     line-height: 60px;
     min-height: 375px;
     margin: 20px 0;
+
+.inventory, .setting, .order{
+      border: 2px solid rgba(237, 233, 233, 0.961);
+      border-radius: 20px;
+      width: 280px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      line-height: 60px;
+      min-height: 375px;
+      position: relative;
+      top: 40px;
+      margin-bottom: 60px;
+
 }
 
 
@@ -63,6 +79,7 @@
     border-radius: 30px;
     width: 180px;
     cursor: pointer;
+<<<
     transition: background-color 0.3s ease;
 }
 
@@ -130,6 +147,8 @@
         font-size: 14px;
         width: 160px;
     }
+
+
 }
 
 /*  (Tablets and Large Phones, 480px to 767px) */
